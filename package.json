@@ -1,0 +1,20 @@
+{
+  "name": "puissance4",
+  "version": "1.0.0",
+  "description": "A Puissance 4 implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "keywords": [
+    "puissance4",
+    "game",
+    "javascript"
+  ],
+  "author": "Thundzz",
+  "license": "MIT"
+}
