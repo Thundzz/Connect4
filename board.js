@@ -6,11 +6,12 @@ function zeros(dimensions) {
     return array;
 }
 
-function get_empty_board() {
-    return zeros([BOARD_SIZE, BOARD_SIZE]);
+function get_empty_board(boardSize) {
+    return zeros([boardSize, boardSize]);
 }
 
 function print_board(board) {
+    const BOARD_SIZE = board.length;
     for (var i = 0; i < BOARD_SIZE; i++) {
         for (var j = 0; j < BOARD_SIZE; j++) {
             process.stdout.write(board[i][j].toString() + " ");

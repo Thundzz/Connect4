@@ -6,7 +6,6 @@
 	const NEIGHBORS = require('./neighbors.js');
 	const BOARD = require('./board.js');
 
-
 	function play(board, column, player) {
 		if (board[0][column] != 0)
 			throw new Error("error");
