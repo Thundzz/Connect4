@@ -18,6 +18,7 @@
   "author": "Thundzz",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "chai" : "^4.1.0"
   }
 }
